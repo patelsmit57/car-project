@@ -49,8 +49,8 @@ def register(request):
             messages.error(request, "Password do not match.")
             return redirect('register')
 
-        messages.error(request, "This is error message")
-        return redirect('register')
+        # messages.error(request, "This is error message")
+        # return redirect('register')
     else:
         return render(request, 'accounts/register.html')
 
@@ -60,6 +60,6 @@ def dashboard(request):
 def logout(request):
     if request.method == "POST":
         auth.logout(request)
-        messages.success(request,'You are successfully logged out.')
+        # messages.success(request,'You are successfully logged out.')
         return redirect('home')
     return redirect('home')
