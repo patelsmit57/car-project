@@ -5,6 +5,7 @@ django-ckeditor = 3.5.2
 django-multiselectfield = 3.5.2
 django-colorfield = 0.7.0
 django-allpath
+python-decouple-3.6
 
 # send email -> https://www.sitepoint.com/django-send-email/
 # python manage.py dumpdata --natural-foreign --natural-primary -e contenttypes -e auth.Premission --indent 4 > project_dump.json
