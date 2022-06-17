@@ -171,8 +171,8 @@ SITE_ID = 1
 #email send
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = '19bcscs033@student.rru.ac.in'
-EMAIL_HOST_PASSWORD = 'rxpjvqlmasxhfyxh'
+EMAIL_HOST_USER = '#####'
+EMAIL_HOST_PASSWORD = '######'
 EMAIL_USE_TLS = True
 
 
