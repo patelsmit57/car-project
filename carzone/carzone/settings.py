@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'page',
     'cars',
     'accounts',
+    'contacts',
     # Social Login
     'django.contrib.sites',
     'allauth',
