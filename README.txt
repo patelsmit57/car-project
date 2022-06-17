@@ -14,3 +14,6 @@ django-allpath
 #>heroku --version
 # heroku login
 # heroku whoami
+
+dj-database-url-0.5.0
+whitenoise-6.2.0    ->  static file use
