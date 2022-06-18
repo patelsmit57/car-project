@@ -1,2 +1,2 @@
-release: python carzone\manage.py runserver
+release: python carzone\manage.py migrate
 web: gunicorn carzone.wsgi
