@@ -18,3 +18,11 @@ python-decouple-3.6
 
 dj-database-url-0.5.0
 whitenoise-6.2.0    ->  static file use
+
+
+heroku --version
+heroku create smitpatel-car-project
+                    ^^ app name
+heroku git:remote -a smitpatel-car-project
+git push heroku master
+heroku open
